@@ -21,4 +21,5 @@ GCP TERRAFORM RESOURCE PROVISIONING
 1) Navigate to actions page in the repositort
 2) Click Terraform
 3) Click commit the changes
-4) 
+4) After this ./github/workflow/terraform.yml will be created in the repo
+5) Edit the terraform.yanl for github hosted runner
