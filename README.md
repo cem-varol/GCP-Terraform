@@ -1,4 +1,4 @@
-GCP Terraform resource proivisioning
+GCP TERRAFORM RESOURCE PROVISIONING
 
 1) create the folder structure of the project
 2) configure provider.tf file GCP
@@ -15,3 +15,10 @@ GCP Terraform resource proivisioning
 7) Check the GCP Console if the bucket created.
 
    <img width="1913" height="897" alt="bucket-creates" src="https://github.com/user-attachments/assets/5242ae3c-c82c-4285-8dba-567cabf5cee7" />
+
+
+   CONFIGURING GITHUB ACTIONS FOR CI/CD
+1) Navigate to actions page in the repositort
+2) Click Terraform
+3) Click commit the changes
+4) 
