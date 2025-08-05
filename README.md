@@ -7,6 +7,6 @@ GCP Terraform resource proivisioning
 5) Download the key.json. Configure it in your file structure. WARINING: DON NOT COMMIT THIS TO REPOSITORY.  
 5) create a main.tf file that provisons the resource(check terraform documentation for bucket in this case)
 6) Commands for terraform: 
-        > terraform init
-        > terraform plan 
-        > terraform apply
+             > terraform init
+             > terraform plan 
+             > terraform apply
