@@ -14,4 +14,4 @@ GCP Terraform resource proivisioning
 
 7) Check the GCP Console if the bucket created.
 
-         <img width="1913" height="897" alt="bucket-creates" src="https://github.com/user-attachments/assets/5242ae3c-c82c-4285-8dba-567cabf5cee7" />
+   <img width="1913" height="897" alt="bucket-creates" src="https://github.com/user-attachments/assets/5242ae3c-c82c-4285-8dba-567cabf5cee7" />
