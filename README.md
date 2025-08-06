@@ -33,5 +33,5 @@ CONFIGURING GITHUB ACTIONS FOR CI/CD
 4) After this ./github/workflow/terraform.yml will be created in the repo
 5) Edit the terraform.yanl for github hosted runner
 6) Edit terraform.yaml to use this secret
-7) Push repository 
+7) Push repository new changes 
 8) Observe the github workflow that runs the job
