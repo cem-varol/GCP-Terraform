@@ -35,3 +35,6 @@ CONFIGURING GITHUB ACTIONS FOR CI/CD
 6) Edit terraform.yaml to use this secret
 7) Push repository new changes 
 8) Observe the github workflow that runs the job
+
+<img width="1891" height="838" alt="workflow" src="https://github.com/user-attachments/assets/715c0503-3530-45eb-9964-8902485be173" />
+
