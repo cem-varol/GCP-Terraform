@@ -23,3 +23,7 @@ GCP TERRAFORM RESOURCE PROVISIONING
 3) Click commit the changes
 4) After this ./github/workflow/terraform.yml will be created in the repo
 5) Edit the terraform.yanl for github hosted runner
+7) Add your SA account of GCP to github secrets
+8) Edit terraform.yaml to use this secret
+9) Push repository 
+10) Observe the github workflow that runs the job
