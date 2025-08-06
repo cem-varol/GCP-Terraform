@@ -17,13 +17,21 @@ GCP TERRAFORM RESOURCE PROVISIONING
    <img width="1913" height="897" alt="bucket-creates" src="https://github.com/user-attachments/assets/5242ae3c-c82c-4285-8dba-567cabf5cee7" />
 
 
-   CONFIGURING GITHUB ACTIONS FOR CI/CD
-1) Navigate to actions page in the repositort
+CREATE A SECRET FOR GCP SA ON GITHUB 
+   - Go to "Settings" 
+   - Scroll down to "Secrets and Variables"
+   - Click "Actions"
+   - Click "New Repository Secret"
+   - give a name as "GCP_SA_KEY"
+   - Copy your key.json from GCP service account to this window
+   - Click "Add Secret"
+
+CONFIGURING GITHUB ACTIONS FOR CI/CD
+1) Navigate to actions page in the repository
 2) Click Terraform
 3) Click commit the changes
 4) After this ./github/workflow/terraform.yml will be created in the repo
 5) Edit the terraform.yanl for github hosted runner
-7) Add your SA account of GCP to github secrets
-8) Edit terraform.yaml to use this secret
-9) Push repository 
-10) Observe the github workflow that runs the job
+6) Edit terraform.yaml to use this secret
+7) Push repository 
+8) Observe the github workflow that runs the job
